@@ -24,7 +24,6 @@ elements have a font size of 20. Border-style controls the different decorative 
 h2 {
 font-family:papyrus; 
 color: purple;
-background-color: pink;
 font-size: 15;
 text-shadow: 2px 2px 5px blue;
 /*Text-shadow allows for a second color to be written behind the word. The 5px allows the color to blend with the words, instead of it looking 
@@ -56,5 +55,8 @@ img {
   border-radius: 8px;
   /*The images should have rounded edges.*/
 }
-
+a {
+	color: blue
+	/*changes link colors*/
+}
 
