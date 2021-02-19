@@ -18,15 +18,18 @@ color: purple;
 background-color: pink; 
 font-size: 20;
 border-style: dashed
+/*Font-family controls which fonts you can use. h1 elements have Lucida Handwriting font. Font-size controls how big or small the words are. h1 
+elements have a font size of 20. Border-style controls the different decorative lines that can surround the words. h1 elements have a dashed border.*/
  }
 h2 {
 font-family:papyrus; 
 color: purple;
 background-color: pink;
 font-size: 15;
-border-style: dashed
+text-shadow: 2px 2px 5px blue;
+/*Text-shadow allows for a second color to be written behind the word. The 5px allows the color to blend with the words, instead of it looking 
+like separate entities. h2 elements have a blue blur.*/
 }
-
 h3 {
 color:orange;
 font-family:courier;
@@ -35,17 +38,23 @@ background-color: orange;
 font-size: 10;
 }
 p {
-font-family:"Times New Roman"
-border-style: groove
+  font-variant: small-caps;
+  /*Small-caps allows all lowecase letters to be uppercase but it is a smaller font.*/
+  
 }
 body {
   background-color: lavender;
   border-style: double;
-  border-color: black;
+  border-color: blue;
+  font-variant: small-caps;
+  /*border-color changes the color of the border*/
 li {
-  font-family: "Lucida Console", monospace;
+  font-family: "Lucida Console"
+  /*The table of contents has a Lucida Console font*/
 }
+img {
+  border-radius: 8px;
+  /*The images should have rounded edges.*/
 }
 
-</style>
-</head>
+
