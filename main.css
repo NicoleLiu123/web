@@ -46,16 +46,17 @@ body {
   border-style: double;
   border-color: blue;
   /*border-color changes the color of the border*/
+}
 li {
-  font-family: "Lucida Console";
+  font-family: "Lucida Console"
   /*The table of contents has a Lucida Console font*/
 }
 img {
   border-radius: 8px;
   /*The images should have rounded edges.*/
 }
+
 a {
-  color: blue
+	color: blue
 	/*changes link colors*/
 }
-
