@@ -45,10 +45,9 @@ body {
   background-color: lavender;
   border-style: double;
   border-color: blue;
-  font-variant: small-caps;
   /*border-color changes the color of the border*/
 li {
-  font-family: "Lucida Console"
+  font-family: "Lucida Console";
   /*The table of contents has a Lucida Console font*/
 }
 img {
@@ -56,7 +55,7 @@ img {
   /*The images should have rounded edges.*/
 }
 a {
-	color: blue
+  color: blue
 	/*changes link colors*/
 }
 
